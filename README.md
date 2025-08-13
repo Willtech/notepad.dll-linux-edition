@@ -19,8 +19,11 @@ chmod +x notepad.sh
 
 ### Build
 
-gcc -o notepad.dll notepad.dll.c
-./notepad.dll --debug --superchook --log
+`gcc -o notepad.dll notepad.dll.c`  
+or  
+`make`  
+then  
+`./notepad.dll --debug --superchook --log`
 
 ### Flags
 
