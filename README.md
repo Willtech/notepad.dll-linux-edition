@@ -13,6 +13,7 @@
 ```bash
 chmod +x notepad.sh
 ./notepad.sh
+```
 
 ## Additional notepad.dll.c
 
