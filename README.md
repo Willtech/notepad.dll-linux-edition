@@ -13,3 +13,19 @@
 ```bash
 chmod +x notepad.sh
 ./notepad.sh
+
+## Additional notepad.dll.c
+
+### Build
+
+gcc -o notepad.dll notepad.dll.c
+./notepad.dll --debug --superchook --log
+
+### Flags
+
+## 🔧 Flags
+
+- `--debug`: Print timestamps for each DLL load
+- `--superchook`: Overlay ASCII chicken blessing
+- `--log`: Write session details to `~/.notepad.dll.log`
+
